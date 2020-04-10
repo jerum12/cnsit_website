@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>slick lightbox</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="styles/slick-lightbox.css">
+<style>
+
+.image {
+   position:relative;
+   display:inline-block;
+}
+.overlay {
+   display:none;
+}
+.image:hover .overlay {
+   width:100%;
+   height:100%;
+   background:rgba(0,0,0,.5);
+   position:absolute;
+   top:0;
+   left:0;
+   display:inline-block;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box;
+
+   /* All other styling - see example */
+  
+}
+img {
+      vertical-align:top;
+   }
+</style>
+
+</head>
+<body>
+    <div class="image">
+        Content to be displayed on hover
+        <div class="overlay"> <img src="images/program-img1.jpg" /></div>
+     </div>
+  <!--Bootstrap-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!--Latest stable release of jQuery Core Library-->
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script> 
+
+<!--Bootstrap JS-->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript" src="scripts/slick-lightbox.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+     
+    });
+  </script>
+</body>
+</html>
