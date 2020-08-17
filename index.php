@@ -28,6 +28,33 @@ http://www.templatemo.com/tm-486-new-event
 </head>
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
+ <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="132830630725100"
+  theme_color="#a21919"
+  logged_in_greeting="Hi! We are glad to help you? "
+  logged_out_greeting="Hi! We are glad to help you? ">
+      </div>
+      
 <!-- =========================
      PRE LOADER       
 ============================== -->
@@ -83,7 +110,7 @@ http://www.templatemo.com/tm-486-new-event
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12">
-                <h1 class="wow fadeInUp intro-h1" data-wow-delay="1.0s" style="top:-50px">Central Neuro System</h1>
+                <h1 class="wow fadeInUp intro-h1" data-wow-delay="1.0s" style="margin-top:-50px">Central Neuro System</h1>
                 <p class="intro-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                     <br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
 				<a href="#aboutus" class="btn btn-lg btn-default smoothScroll wow fadeInUp" data-wow-delay="1.5s" style="background-color:#a21919">Get Started</a>
@@ -747,7 +774,7 @@ http://www.templatemo.com/tm-486-new-event
   					<div class="panel panel-default">
    						<div class="panel-heading" role="tab" id="headingOne">
       						<h4 class="panel-title">
-        						<a class="" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        						<a class="" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           							 What is .........?
         						</a>
       						</h4>
