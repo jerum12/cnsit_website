@@ -10,7 +10,8 @@ body {
 		background: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-		font-weight: 400;
+    font-weight: 400;
+    overflow-x: hidden;
 }
 
 
@@ -79,7 +80,7 @@ a {
 }
 
 #aboutus{
-  padding-top: 10rem;
+  padding-top: 16rem;
   padding-bottom: 10rem;
 }
 
@@ -292,7 +293,7 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/landing_page.jpg') 50% 0 repeat-y fixed;
+    /* background: url('../images/landing_page.jpg') 50% 0 repeat-y fixed; */
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1253,3 +1254,59 @@ footer {
 .arrow-none{
   background: none !important;
 }
+
+.videoHeader{
+     position: absolute; 
+     /* top: 50%; 
+     left: 50%;  */
+     /* min-width: 100%; 
+     min-height: 100%;  */
+     width: 100%; 
+     /* height: auto; 
+     z-index: -100; 
+    transform: translateX(-59%) translateY(-60%); */
+    /* background: url('../images/landing_page.jpg') 50% 0 repeat-y fixed;
+     background-size: cover; 
+     transition: 1s opacity; */
+}
+
+
+ video {
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%; */
+  width: auto;
+  height: auto;
+  /* z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); */
+}
+
+/* header .container {
+  position: relative;
+  z-index: 2;
+} */
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+} */
+
+/* @media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  video {
+    display: none;
+  }
+} */

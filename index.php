@@ -5,7 +5,7 @@
 New Event
 http://www.templatemo.com/tm-486-new-event
 -->
-<title>Central Neuro System</title>
+<title>Central Neuro System Trading Corp</title>
 <meta name="description" content="">
 <meta name="author" content="">
 <meta charset="UTF-8">
@@ -65,6 +65,8 @@ http://www.templatemo.com/tm-486-new-event
 </div>
 
 
+
+
 <!-- =========================
      NAVIGATION LINKS     
 ============================== -->
@@ -79,7 +81,7 @@ http://www.templatemo.com/tm-486-new-event
 				<span class="icon icon-bar"></span>
 			</button>
             <div id="logo"></div>
-            <a href="#" class="navbar-brand" style="margin-left: 0px;">Central Neuro System</a>
+            <!-- <a href="#" class="navbar-brand" style="margin-left: 0px;">Central Neuro System</a> -->
 		</div>
 
 		<div class="collapse navbar-collapse">
@@ -89,6 +91,7 @@ http://www.templatemo.com/tm-486-new-event
 				<li><a href="#aboutus" class="smoothScroll">About Us</a></li>
                 <li><a href="#products" class="smoothScroll">Products</a></li>
                 <li><a href="#services" class="smoothScroll">Services</a></li>
+                <li><a href="#venue" class="smoothScroll">Our Partners</a></li>
                 <li><a href="#clients" class="smoothScroll">Clients</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
 				<!-- <li><a href="#venue" class="smoothScroll">Venue</a></li>
@@ -105,7 +108,30 @@ http://www.templatemo.com/tm-486-new-event
 <!-- =========================
     INTRO SECTION   
 ============================== -->
+
+
+
 <section id="intro" class="parallax-section">
+
+  <!-- <header> -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100" style="z-index:100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+        <h1 class="wow fadeInUp intro-h1" data-wow-delay="1.0s">Central Neuro System</h1>
+        <p class="intro-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    <br/>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+				<a href="#aboutus" class="btn btn-lg btn-default smoothScroll wow fadeInUp" data-wow-delay="1.5s" style="background-color:#a21919">Get Started</a>
+				<a href="#products" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.0s" style="background-color:#fff;color:#a21919">View Products</a>
+        </div>
+      </div>
+    </div>
+  <!-- </header> -->
+  <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="videoHeader">
+    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+  </video>
 	<div class="container">
 		<div class="row">
 
@@ -119,7 +145,7 @@ http://www.templatemo.com/tm-486-new-event
 
 
 		</div>
-	</div>
+	</div> -->
 </section>
 
 
@@ -892,7 +918,7 @@ http://www.templatemo.com/tm-486-new-event
 <!-- =========================
     VENUE SECTION   
 ============================== -->
-<!-- <section id="venue" class="parallax-section">
+<section id="venue" class="parallax-section">
 	<div class="container">
 		<div class="row">
 
@@ -907,7 +933,7 @@ http://www.templatemo.com/tm-486-new-event
 
 		</div>
 	</div>
-</section> -->
+</section>
 
 
 <!-- =========================
